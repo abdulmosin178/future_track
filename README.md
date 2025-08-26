@@ -14,7 +14,7 @@ Our mission is simple:
 ---
 
 ## 🌐 Live Project  
-**URL**: [FutureTrack Project](https://your-deployed-link.com)  
+**URL**: futuretrack-career-path-main-75662v0kb-abdul-mosins-projects.vercel.app  
 (*replace with your live link when deployed*)  
 
 ---
