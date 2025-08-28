@@ -14,7 +14,7 @@ Our mission is simple:
 ---
 
 ## 🌐 Live Project  
-**URL**: https://futuretrack-career-path-main.vercel.app/
+**URL**: https://future-track.vercel.app/
 
 
 ---
