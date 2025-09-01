@@ -44,9 +44,16 @@ const Navigation = () => {
                 />
               </Link>
             ))}
-            <Button variant="default" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
-              Get Started
-            </Button>
+
+            {/* Desktop Get Started Button */}
+            <Link to="/contact">
+              <Button
+                variant="default"
+                className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
+              >
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -78,10 +85,14 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
+
+              {/* Mobile Get Started Button */}
               <div className="px-3 py-2">
-                <Button variant="default" className="w-full bg-gradient-primary">
-                  Get Started
-                </Button>
+                <Link to="/contact" onClick={() => setIsOpen(false)}>
+                  <Button variant="default" className="w-full bg-gradient-primary">
+                    Get Started
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

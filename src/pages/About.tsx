@@ -30,7 +30,7 @@ const About = () => {
     {
       name: "Thiyagu Balu",
       role: "Founder & CEO",
-      description: "Former tech executive with 5+ years of experience in career development and education."
+      description: "Former tech executive with 7+ years of experience in career development and education."
     },
     {
       name: "Abdul Mosin",
@@ -38,7 +38,7 @@ const About = () => {
       description: "Educational technology expert who has designed programs for leading universities worldwide."
     },
     {
-      name: "Emily",
+      name: "Tamilvendhan",
       role: "Career Services Director",
       description: "Career counselor with a track record of helping 5000+ students land their dream jobs."
     }
@@ -46,6 +46,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background pt-20">
+
       {/* Hero Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,9 +59,7 @@ const About = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Founded with a simple mission – to help students turn their potential into successful careers. 
-                We understand the challenges of entering the workforce, and our platform is designed to guide 
-                students every step of the way.
+                We provide personalized <strong>Career Guidance</strong> for students who have completed 10th, +2, or graduation, helping them explore career paths, develop skills, and access opportunities.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
@@ -72,7 +71,7 @@ const About = () => {
                   <div className="text-muted-foreground">Students Helped</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">500+</div>
+                  <div className="text-3xl font-bold text-primary mb-2">100+</div>
                   <div className="text-muted-foreground">Partner Companies</div>
                 </div>
                 <div>
@@ -93,29 +92,19 @@ const About = () => {
         </div>
       </section>
 
-      {/* Mission Section */}
+      {/* Mission / Guidance Section */}
       <section className="py-20 bg-gradient-card">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl lg:text-5xl font-bold mb-8">
-            Our{" "}
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Mission
-            </span>
+            Our <span className="bg-gradient-primary bg-clip-text text-transparent">Mission</span>
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-            We believe that every student has unique potential waiting to be unlocked. Our mission is to 
-            provide the guidance, skills, and opportunities needed to transform that potential into 
-            meaningful career success. Through personalized learning paths, industry connections, and 
-            dedicated mentorship, we're building the bridge between education and employment.
+           We believe that every student has unique potential waiting to be unlocked. Our mission is to provide personalized career guidance for students after 10th, +2, or graduation to help them build successful careers.
+We focus on understanding each student’s strengths, interests, and aspirations to chart the best path forward.
+With expert mentorship, practical resources, and real-world insights, we empower students to make informed career choices.
+Our goal is to inspire confidence, ignite passion, and ensure every student achieves their full potential.
+Together, we turn dreams into actionable plans and pave the way for a brighter future.
           </p>
-          <div className="bg-gradient-primary p-1 rounded-2xl inline-block">
-            <div className="bg-background rounded-xl p-8">
-              <blockquote className="text-2xl font-semibold text-foreground">
-                "Success is not just about landing a job – it's about building a career you're passionate about."
-              </blockquote>
-              <cite className="text-muted-foreground mt-4 block">- FutureTrack Team</cite>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -124,14 +113,8 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Our{" "}
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Values
-              </span>
+              Our <span className="bg-gradient-primary bg-clip-text text-transparent">Values</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              These core values guide everything we do and shape the experience we create for our students.
-            </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -159,15 +142,8 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Meet Our{" "}
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Team
-              </span>
+              Meet Our <span className="bg-gradient-primary bg-clip-text text-transparent">Team</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Our experienced team of educators, career counselors, and industry experts are dedicated 
-              to your success.
-            </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -190,6 +166,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
     </div>
   );
 };
