@@ -28,7 +28,7 @@ const About = () => {
 
   const team = [
     {
-      name: "Thiyagu Balu",
+      name: "Vetrivel",
       role: "Founder & CEO",
       description: "Former tech executive with 7+ years of experience in career development and education."
     },
@@ -38,7 +38,7 @@ const About = () => {
       description: "Educational technology expert who has designed programs for leading universities worldwide."
     },
     {
-      name: "Tamilvendhan",
+      name: "Vetrivel",
       role: "Career Services Director",
       description: "Career counselor with a track record of helping 5000+ students land their dream jobs."
     }

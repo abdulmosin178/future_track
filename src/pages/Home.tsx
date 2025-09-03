@@ -9,30 +9,27 @@ const Home = () => {
     {
       icon: Users,
       title: "Final Year Students",
-      description: "Personalized guidance for final year students to explore career options and prepare for job opportunities."
+      description:
+        "Personalized guidance for final year students to explore career options and prepare for job opportunities.",
     },
     {
       icon: Users,
       title: "Passed-Out Students",
-      description: "Support and mentorship for students who have graduated to help them transition into the workforce."
+      description:
+        "Support and mentorship for students who have graduated to help them transition into the workforce.",
     },
     {
       icon: Users,
       title: "Diploma Students",
-      description: "Specialized guidance for diploma holders to align their skills with industry demands."
+      description:
+        "Specialized guidance for diploma holders to align their skills with industry demands.",
     },
     {
       icon: Users,
       title: "Career Growth Support",
-      description: "Continuous career advice and mentorship to ensure long-term professional success."
-    }
-  ];
-
-  // Updated stats: removed Placement Rate
-  const stats = [
-    { number: "10,000+", label: "Students Guided" },
-    { number: "100+", label: "Partner Companies" },
-    { number: "4.8/5", label: "Student Rating" }
+      description:
+        "Continuous career advice and mentorship to ensure long-term professional success.",
+    },
   ];
 
   return (
@@ -51,7 +48,13 @@ const Home = () => {
                 Into Success
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                FutureTrack guides students every step of the way – from learning the right skills to landing meaningful jobs. We provide personalized mentorship, helping you discover the career path that aligns with your strengths and passions. Our platform connects you with industry professionals and real-world opportunities, ensuring you gain practical experience. Start your journey towards a successful and fulfilling career today.
+                FutureTrack guides students every step of the way – from
+                learning the right skills to landing meaningful jobs. We provide
+                personalized mentorship, helping you discover the career path
+                that aligns with your strengths and passions. Our platform
+                connects you with industry professionals and real-world
+                opportunities, ensuring you gain practical experience. Start
+                your journey towards a successful and fulfilling career today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/about">
@@ -77,22 +80,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-gradient-card">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center group">
-                <div className="text-4xl lg:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:animate-glow-pulse">
-                  {stat.number}
-                </div>
-                <div className="text-muted-foreground font-medium">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Career Guidance Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -104,13 +91,17 @@ const Home = () => {
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We provide tailored mentorship and support for students based on their educational stage.
+              We provide tailored mentorship and support for students based on
+              their educational stage.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
-              <Card key={index} className="bg-gradient-card border-glass-border hover:shadow-card transition-all duration-500 hover:scale-105 group">
+              <Card
+                key={index}
+                className="bg-gradient-card border-glass-border hover:shadow-card transition-all duration-500 hover:scale-105 group"
+              >
                 <CardContent className="p-6 text-center">
                   <div className="mb-4 inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-2xl group-hover:animate-float">
                     <feature.icon className="h-8 w-8 text-primary-foreground" />
